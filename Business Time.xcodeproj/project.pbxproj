@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0396848AA3A87F13FB7E168A /* libPods-Business Time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BA2D2B216C1267CE32886D /* libPods-Business Time.a */; };
+		CB79D2E01BD83BF7004AB695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79D2DF1BD83BF7004AB695 /* main.m */; };
+		CB79D2E31BD83BF7004AB695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79D2E21BD83BF7004AB695 /* AppDelegate.m */; };
+		CB79D2E61BD83BF7004AB695 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79D2E51BD83BF7004AB695 /* ViewController.m */; };
+		CB79D2E91BD83BF7004AB695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB79D2E71BD83BF7004AB695 /* Main.storyboard */; };
+		CB79D2EB1BD83BF7004AB695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB79D2EA1BD83BF7004AB695 /* Assets.xcassets */; };
+		CB79D2EE1BD83BF7004AB695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB79D2EC1BD83BF7004AB695 /* LaunchScreen.storyboard */; };
+		CB79D2F91BD83BF8004AB695 /* Business_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79D2F81BD83BF8004AB695 /* Business_TimeTests.m */; };
+		CB79D3041BD83BF8004AB695 /* Business_TimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79D3031BD83BF8004AB695 /* Business_TimeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB79D2F51BD83BF8004AB695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB79D2D31BD83BF7004AB695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB79D2DA1BD83BF7004AB695;
+			remoteInfo = "Business Time";
+		};
+		CB79D3001BD83BF8004AB695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB79D2D31BD83BF7004AB695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB79D2DA1BD83BF7004AB695;
+			remoteInfo = "Business Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CE6AF67FD9E38552D685AA5 /* Pods-Business Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business Time.release.xcconfig"; path = "Pods/Target Support Files/Pods-Business Time/Pods-Business Time.release.xcconfig"; sourceTree = "<group>"; };
+		CB79D2DB1BD83BF7004AB695 /* Business Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB79D2DF1BD83BF7004AB695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB79D2E11BD83BF7004AB695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB79D2E21BD83BF7004AB695 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB79D2E41BD83BF7004AB695 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB79D2E51BD83BF7004AB695 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB79D2E81BD83BF7004AB695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB79D2EA1BD83BF7004AB695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB79D2ED1BD83BF7004AB695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB79D2EF1BD83BF7004AB695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB79D2F41BD83BF8004AB695 /* Business TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB79D2F81BD83BF8004AB695 /* Business_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Business_TimeTests.m; sourceTree = "<group>"; };
+		CB79D2FA1BD83BF8004AB695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB79D2FF1BD83BF8004AB695 /* Business TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB79D3031BD83BF8004AB695 /* Business_TimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Business_TimeUITests.m; sourceTree = "<group>"; };
+		CB79D3051BD83BF8004AB695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4BA2D2B216C1267CE32886D /* libPods-Business Time.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Business Time.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F031378B401DF17A1E775964 /* Pods-Business Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business Time.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Business Time/Pods-Business Time.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB79D2D81BD83BF7004AB695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0396848AA3A87F13FB7E168A /* libPods-Business Time.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79D2F11BD83BF8004AB695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79D2FC1BD83BF8004AB695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EA00784B617AAB7F043EAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4BA2D2B216C1267CE32886D /* libPods-Business Time.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB79D2D21BD83BF7004AB695 = {
+			isa = PBXGroup;
+			children = (
+				CB79D2DD1BD83BF7004AB695 /* Business Time */,
+				CB79D2F71BD83BF8004AB695 /* Business TimeTests */,
+				CB79D3021BD83BF8004AB695 /* Business TimeUITests */,
+				CB79D2DC1BD83BF7004AB695 /* Products */,
+				DCDB1BD388744D51804D56DD /* Pods */,
+				4EA00784B617AAB7F043EAAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB79D2DC1BD83BF7004AB695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB79D2DB1BD83BF7004AB695 /* Business Time.app */,
+				CB79D2F41BD83BF8004AB695 /* Business TimeTests.xctest */,
+				CB79D2FF1BD83BF8004AB695 /* Business TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB79D2DD1BD83BF7004AB695 /* Business Time */ = {
+			isa = PBXGroup;
+			children = (
+				CB79D2E11BD83BF7004AB695 /* AppDelegate.h */,
+				CB79D2E21BD83BF7004AB695 /* AppDelegate.m */,
+				CB79D2E41BD83BF7004AB695 /* ViewController.h */,
+				CB79D2E51BD83BF7004AB695 /* ViewController.m */,
+				CB79D2E71BD83BF7004AB695 /* Main.storyboard */,
+				CB79D2EA1BD83BF7004AB695 /* Assets.xcassets */,
+				CB79D2EC1BD83BF7004AB695 /* LaunchScreen.storyboard */,
+				CB79D2EF1BD83BF7004AB695 /* Info.plist */,
+				CB79D2DE1BD83BF7004AB695 /* Supporting Files */,
+			);
+			path = "Business Time";
+			sourceTree = "<group>";
+		};
+		CB79D2DE1BD83BF7004AB695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB79D2DF1BD83BF7004AB695 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB79D2F71BD83BF8004AB695 /* Business TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB79D2F81BD83BF8004AB695 /* Business_TimeTests.m */,
+				CB79D2FA1BD83BF8004AB695 /* Info.plist */,
+			);
+			path = "Business TimeTests";
+			sourceTree = "<group>";
+		};
+		CB79D3021BD83BF8004AB695 /* Business TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB79D3031BD83BF8004AB695 /* Business_TimeUITests.m */,
+				CB79D3051BD83BF8004AB695 /* Info.plist */,
+			);
+			path = "Business TimeUITests";
+			sourceTree = "<group>";
+		};
+		DCDB1BD388744D51804D56DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F031378B401DF17A1E775964 /* Pods-Business Time.debug.xcconfig */,
+				2CE6AF67FD9E38552D685AA5 /* Pods-Business Time.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB79D2DA1BD83BF7004AB695 /* Business Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB79D3081BD83BF8004AB695 /* Build configuration list for PBXNativeTarget "Business Time" */;
+			buildPhases = (
+				FD1CDD42411445A847058315 /* Check Pods Manifest.lock */,
+				CB79D2D71BD83BF7004AB695 /* Sources */,
+				CB79D2D81BD83BF7004AB695 /* Frameworks */,
+				CB79D2D91BD83BF7004AB695 /* Resources */,
+				7FFC97E2CC0B07F39ED941E8 /* Embed Pods Frameworks */,
+				F80E31D3201A62C7C9E66FBC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Business Time";
+			productName = "Business Time";
+			productReference = CB79D2DB1BD83BF7004AB695 /* Business Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB79D2F31BD83BF8004AB695 /* Business TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB79D30B1BD83BF8004AB695 /* Build configuration list for PBXNativeTarget "Business TimeTests" */;
+			buildPhases = (
+				CB79D2F01BD83BF8004AB695 /* Sources */,
+				CB79D2F11BD83BF8004AB695 /* Frameworks */,
+				CB79D2F21BD83BF8004AB695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB79D2F61BD83BF8004AB695 /* PBXTargetDependency */,
+			);
+			name = "Business TimeTests";
+			productName = "Business TimeTests";
+			productReference = CB79D2F41BD83BF8004AB695 /* Business TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB79D2FE1BD83BF8004AB695 /* Business TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB79D30E1BD83BF8004AB695 /* Build configuration list for PBXNativeTarget "Business TimeUITests" */;
+			buildPhases = (
+				CB79D2FB1BD83BF8004AB695 /* Sources */,
+				CB79D2FC1BD83BF8004AB695 /* Frameworks */,
+				CB79D2FD1BD83BF8004AB695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB79D3011BD83BF8004AB695 /* PBXTargetDependency */,
+			);
+			name = "Business TimeUITests";
+			productName = "Business TimeUITests";
+			productReference = CB79D2FF1BD83BF8004AB695 /* Business TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB79D2D31BD83BF7004AB695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Randall Dailey";
+				TargetAttributes = {
+					CB79D2DA1BD83BF7004AB695 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2GRGSY42RT;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CB79D2F31BD83BF8004AB695 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CB79D2DA1BD83BF7004AB695;
+					};
+					CB79D2FE1BD83BF8004AB695 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CB79D2DA1BD83BF7004AB695;
+					};
+				};
+			};
+			buildConfigurationList = CB79D2D61BD83BF7004AB695 /* Build configuration list for PBXProject "Business Time" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB79D2D21BD83BF7004AB695;
+			productRefGroup = CB79D2DC1BD83BF7004AB695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB79D2DA1BD83BF7004AB695 /* Business Time */,
+				CB79D2F31BD83BF8004AB695 /* Business TimeTests */,
+				CB79D2FE1BD83BF8004AB695 /* Business TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB79D2D91BD83BF7004AB695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79D2EE1BD83BF7004AB695 /* LaunchScreen.storyboard in Resources */,
+				CB79D2EB1BD83BF7004AB695 /* Assets.xcassets in Resources */,
+				CB79D2E91BD83BF7004AB695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79D2F21BD83BF8004AB695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79D2FD1BD83BF8004AB695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FFC97E2CC0B07F39ED941E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Business Time/Pods-Business Time-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80E31D3201A62C7C9E66FBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Business Time/Pods-Business Time-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1CDD42411445A847058315 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB79D2D71BD83BF7004AB695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79D2E61BD83BF7004AB695 /* ViewController.m in Sources */,
+				CB79D2E31BD83BF7004AB695 /* AppDelegate.m in Sources */,
+				CB79D2E01BD83BF7004AB695 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79D2F01BD83BF8004AB695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79D2F91BD83BF8004AB695 /* Business_TimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79D2FB1BD83BF8004AB695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79D3041BD83BF8004AB695 /* Business_TimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB79D2F61BD83BF8004AB695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB79D2DA1BD83BF7004AB695 /* Business Time */;
+			targetProxy = CB79D2F51BD83BF8004AB695 /* PBXContainerItemProxy */;
+		};
+		CB79D3011BD83BF8004AB695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB79D2DA1BD83BF7004AB695 /* Business Time */;
+			targetProxy = CB79D3001BD83BF8004AB695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB79D2E71BD83BF7004AB695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB79D2E81BD83BF7004AB695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB79D2EC1BD83BF7004AB695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB79D2ED1BD83BF7004AB695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB79D3061BD83BF8004AB695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB79D3071BD83BF8004AB695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB79D3091BD83BF8004AB695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F031378B401DF17A1E775964 /* Pods-Business Time.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Business Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Localytics.BusinessTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CB79D30A1BD83BF8004AB695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE6AF67FD9E38552D685AA5 /* Pods-Business Time.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Business Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Localytics.BusinessTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CB79D30C1BD83BF8004AB695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Business TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Localytics.Business-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Business Time.app/Business Time";
+			};
+			name = Debug;
+		};
+		CB79D30D1BD83BF8004AB695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Business TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Localytics.Business-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Business Time.app/Business Time";
+			};
+			name = Release;
+		};
+		CB79D30F1BD83BF8004AB695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Business TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Localytics.Business-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Business Time";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CB79D3101BD83BF8004AB695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Business TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Localytics.Business-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Business Time";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB79D2D61BD83BF7004AB695 /* Build configuration list for PBXProject "Business Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79D3061BD83BF8004AB695 /* Debug */,
+				CB79D3071BD83BF8004AB695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB79D3081BD83BF8004AB695 /* Build configuration list for PBXNativeTarget "Business Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79D3091BD83BF8004AB695 /* Debug */,
+				CB79D30A1BD83BF8004AB695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB79D30B1BD83BF8004AB695 /* Build configuration list for PBXNativeTarget "Business TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79D30C1BD83BF8004AB695 /* Debug */,
+				CB79D30D1BD83BF8004AB695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB79D30E1BD83BF8004AB695 /* Build configuration list for PBXNativeTarget "Business TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79D30F1BD83BF8004AB695 /* Debug */,
+				CB79D3101BD83BF8004AB695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB79D2D31BD83BF7004AB695 /* Project object */;
+}
